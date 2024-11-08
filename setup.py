@@ -21,7 +21,7 @@ def download_extract(url, dl_path):
     tar.extractall("third_party/")
     tar.close()
 
-
+#replace openfst with https://github.com/chenzhehuai/openfst/archive/refs/heads/master.zip
 # Download/Extract openfst, boost
 download_extract(
     "https://github.com/parlance/ctcdecode/releases/download/v1.0/openfst-1.6.7.tar.gz",
